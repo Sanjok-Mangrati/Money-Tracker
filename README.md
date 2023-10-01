@@ -20,30 +20,35 @@ Money Tracker is a a tool to keep track of your Expenses and Income. It is fun p
 
 ## Usage
 
+Clone the repo
 ```
 git clone https://github.com/Sanjok-Mangrati/Money-Tracker.git
 ```
-
+Change directory to Money-Tracker
 ```
 cd Money-Tracker
-
 ```
+Change directory to server
 ```
 cd server
 ```
+Start the server with npm start
 ```
 npm start
 ```
+Change directory to client
 ```
 cd client
 ```
+Start the react app with npm start
 ```
 npm start
 ```
 
 ## Note: 
-- You need to create your own database and copy paste the connection string in the server directory inside a .env file.
-  Eg: MONGO_URL= your_url
+- You need to create a .env file and define a PORT and MONGO_URI.
+- Eg: PORT=5000
+- MONGO_URI= your_url
 
 ## Contributing
 
