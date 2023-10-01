@@ -42,7 +42,7 @@ npm start
 ```
 
 ## Note: 
-- You need to create your own database and copy paste the connection string in the server directory inside a .env file. Eg: MONGO_URL=<url>
+- You need to create your own database and copy paste the connection string in the server directory inside a .env file. Eg: MONGO_URL= your_url
 
 ## Contributing
 
