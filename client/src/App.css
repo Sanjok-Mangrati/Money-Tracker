@@ -1,0 +1,94 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    font-family: var(--font-family);
+    color: var(--color-white);
+}
+
+.money-tracker__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    padding: 20px 20px;
+    background-color: var(--color-bg);
+    border-radius: 5px;
+    box-shadow: 0px 2px 25px rgba(255, 255, 255, 0.25);
+    overflow-y: scroll;
+}
+
+.money-tracker__balance .red {
+    color: red;
+}
+
+.money-tracker__balance .green {
+    color: green;
+}
+
+.money-tracker__input-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.money-tracker__input-section input {
+    padding: 8px 20px;
+    border: 2px solid var(--color-darkgrey);
+    border-radius: 5px;
+    background-color: var(--color-white);
+    outline: none;
+}
+
+.money-tracker__input-section input::placeholder {
+    font-family: var(--font-family);
+    color: var(--color-dark-grey);
+}
+
+.money-tracker__input-section_top {
+    display: flex;
+    gap: 5px;
+}
+
+.money-tracker__input-section_top .name {
+    flex: 0.5;    
+}
+
+.money-tracker__input-section_top .dateTime {
+    flex: 0.5;
+}
+
+.money-tracker__input-section_bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.money-tracker__input-section_bottom button {
+    padding: 8px 0px;
+    margin-top: 10px;
+    border: 2px solid var(--color-darkgrey);
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.money-tracker__input-section_bottom button:hover {
+    background-color: #bb86fccb;
+}
+
+.money-tracker__input-section_bottom button:active {
+    background-color: #a967f9cb;
+}
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+.money-tracker__transactions-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px 5px;;
+    border-bottom: 1px solid var(--color-teal);
+}
+
+.money-tracker__transactions-left {
+    width: 60%;
+}
+
+.money-tracker__transactions-left .name{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.money-tracker__transactions-left .description {
+    margin-top: 5px;
+    font-size: 12px;
+    color: var(--color-lightgrey);
+}
+
+.money-tracker__transactions-right{
+    width: 40%;
+    text-align: end;
+}
+
+.money-tracker__transactions-right .amount {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.money-tracker__transactions-right .dateTime {
+    margin-top: 5px;
+    font-size: 12px;
+    color: var(--color-lightgrey);
+}
+
+.money-tracker__transactions-right .red {
+    color: red;
+}
+
+.money-tracker__transactions-right .green {
+    color: green;
+}
+
+
